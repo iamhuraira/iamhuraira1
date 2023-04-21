@@ -61,7 +61,7 @@ const Navbar = () => {
 
       </div>
       <div className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70  ease-in duration-500' : ''}>
-        <div className={nav ? 'fixed left-0 top-0  sm:w-[60%] md:w-[60%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0  sm:w-[60%] md:w-[60%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'}>
+        <div className={nav ? 'fixed left-0 top-0  sm:w-[60%] md:w-[60%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-120%] top-0  sm:w-[60%] md:w-[60%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
               <Image 
@@ -99,7 +99,7 @@ const Navbar = () => {
                 <li className='py-4 text-sm' >Contact</li>
               </Link>
             </ul>
-            <div className='pt-40'>
+            <div className='pt-10'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[100%]  sm:flex-wrap'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500'>
