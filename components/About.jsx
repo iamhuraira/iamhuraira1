@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '/public/assets/boy.jpg';
+// import AboutImg from '/public/assets/boy.jpg';
 
 const About = () => {
   const aboutData = {
@@ -9,8 +9,8 @@ const About = () => {
     desc1:
       " I specialize in building MERN( MongoDB, Express Js, React, Nodes js) Stack Web Applications and I'm also proficient in building mobile responsive front- end UI applications that connect with API’s and other backend technologies.I’m passionate about learning new technologies and understand there is more than one way to accomplish a task.Though I am most proficient in building front- end applications using React, Next Js, HTML, CSS, and  Javascript and also build the backend of web apps using Node Js, Express JS, Next Js, Nust js, MongoDB and Mongoose. I am a quick learner and can pick up new tech stacks as needed.I believe that being a great developer is not using one specific language, but choosing the best tool for the job.",
     desc2:
-          ' I started web developement in 2021 managing and build multiple e-commerce websites, portfolioand Company websites and Simple UI of Website on Custom Build in MERN stact, Next js and  CMS platforms such as WordPress. I have experience working directly with clients and taking mock wireframes all the way to deployed applications. In my spare time I run Code Commerce, a Youtube channel where I teach web developement and various front- end technologies.',
-    img: AboutImg,
+      ' I started web developement in 2021 managing and build multiple e-commerce websites, portfolioand Company websites and Simple UI of Website on Custom Build in MERN stact, Next js and  CMS platforms such as WordPress. I have experience working directly with clients and taking mock wireframes all the way to deployed applications. In my spare time I run Code Commerce, a Youtube channel where I teach web developement and various front- end technologies.',
+    img: '/public/assets/boy.jpg',
   };
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
