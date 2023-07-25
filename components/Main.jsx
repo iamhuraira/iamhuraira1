@@ -9,13 +9,12 @@ import { SiUpwork } from "react-icons/si"
 const Main = () => {
 
   const link = {
-    upwork: 'https://www.upwork.com/',
-    linkedin: 'https://www.linkedin.com/',
-    github: 'https://www.github.com',
-    mail: '/ #contact',
+    upwork: 'https://www.upwork.com/freelancers/~018cce8136a7030f16',
+    linkedin: 'https://www.linkedin.com/in/iamhuraira/',
+    github: 'https://github.com/iamhuraira',
+    mail: '/#contact',
     contactNo: '/resume',
-
-  }
+  };
 
   const data = {
     name: "Abu Huraira",

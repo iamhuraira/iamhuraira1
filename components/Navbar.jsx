@@ -19,16 +19,15 @@ const Navbar = () => {
   }
 
   const link = {
-    upwork: 'https://www.upwork.com/',
-    linkedin: 'https://www.linkedin.com/',
-    github: 'https://www.github.com',
-    mail: '/ #contact',
+    upwork: 'https://www.upwork.com/freelancers/~018cce8136a7030f16',
+    linkedin: 'https://www.linkedin.com/in/iamhuraira/',
+    github: 'https://github.com/iamhuraira',
+    mail: '/#contact',
     contactNo: '/resume',
-    
-  }
+  };
 
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
+    <div style={{ backgroundColor:'#ecf0f3'}} className='fixed w-full h-20 shadow-xl z-[10000]'>
       <div className='flex justify-between items-center w-full h-full px-12 2xl:px-40'>
         <Image
           src='/logo.png'
