@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-// import AboutImg from '../public/assets/boy.jpg';
+import AboutImg from '../public/assets/boy.jpg';
 
 const About = () => {
   const aboutData = {
@@ -33,7 +33,8 @@ const About = () => {
         </div>
         <div className="lg:w-full sm:w-full h-auto md:col-span-2 lg:col-span-1  m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center md:justify-end   sm:justify-center lg:justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
-            src="/public/assets/boy.jpg"
+            // src="/public/assets/boy.jpg"
+            src={AboutImg}
             className="rounded-xl"
             alt="/"
             width={100}
