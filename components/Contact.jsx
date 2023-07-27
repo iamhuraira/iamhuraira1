@@ -8,6 +8,16 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
+  const aboutData = {
+    name: 'Abu Huraira',
+    position: 'Full Developer',
+     title: 'Who I Am ',
+     desc1:
+       " I specialize in building MERN( MongoDB, Express Js, React, Nodes js) Stack Web Applications and I'm also proficient in building mobile responsive front- end UI applications that connect with API’s and other backend technologies.I’m passionate about learning new technologies and understand there is more than one way to accomplish a task.Though I am most proficient in building front- end applications using React, Next Js, HTML, CSS, and  Javascript and also build the backend of web apps using Node Js, Express JS, Next Js, Nust js, MongoDB and Mongoose. I am a quick learner and can pick up new tech stacks as needed.I believe that being a great developer is not using one specific language, but choosing the best tool for the job.",
+     desc2:
+       ' I started web developement in 2021 managing and build multiple e-commerce websites, portfolioand Company websites and Simple UI of Website on Custom Build in MERN stact, Next js and  CMS platforms such as WordPress. I have experience working directly with clients and taking mock wireframes all the way to deployed applications. In my spare time I run Code Commerce, a Youtube channel where I teach web developement and various front- end technologies.',
+     img: '/assets/skills/boy.png',
+   };
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
