@@ -18,8 +18,15 @@ const Navbar = () => {
     setNav(!nav)
   }
 
+  // const link = {
+  //   upwork: 'https://www.upwork.com/freelancers/~018cce8136a7030f16',
+  //   linkedin: 'https://www.linkedin.com/in/iamhuraira/',
+  //   github: 'https://github.com/iamhuraira',
+  //   mail: '/#contact',
+  //   contactNo: '/resume',
+  // };
   const link = {
-    upwork: 'https://www.upwork.com/freelancers/~018cce8136a7030f16',
+    upwork: 'https://www.upwork.com',
     linkedin: 'https://www.linkedin.com/in/iamhuraira/',
     github: 'https://github.com/iamhuraira',
     mail: '/#contact',

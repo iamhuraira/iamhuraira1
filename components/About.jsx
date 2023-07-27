@@ -41,7 +41,7 @@ const About = () => {
                       width={10000}
                       height={10000}
             style={{
-              width: '90%',
+              width: '100%',
             }}
           />
         </div>
