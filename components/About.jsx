@@ -13,7 +13,7 @@ const About = () => {
     img: '/assets/skills/boy.png',
   };
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-20">
       <div className="max-w-[1240px] m-auto md:grid md:grid-cols-6 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 md:col-span-4 lg:w-[100%]">
           <p className="uppercase text-xl tracking-widest text-[#003479]">
